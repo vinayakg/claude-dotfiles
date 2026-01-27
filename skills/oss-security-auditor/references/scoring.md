@@ -1,0 +1,1 @@
+/home/vinayak/analyse-git-repos/scoring-guide.md
