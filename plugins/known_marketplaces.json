@@ -5,7 +5,7 @@
       "repo": "anthropics/claude-plugins-official"
     },
     "installLocation": "/home/vinayak/.claude/plugins/marketplaces/claude-plugins-official",
-    "lastUpdated": "2026-01-26T17:39:44.934Z"
+    "lastUpdated": "2026-01-27T18:15:54.386Z"
   },
   "claude-code-workflows": {
     "source": {
@@ -14,5 +14,13 @@
     },
     "installLocation": "/home/vinayak/.claude/plugins/marketplaces/claude-code-workflows",
     "lastUpdated": "2026-01-26T13:21:31.756Z"
+  },
+  "ui-ux-pro-max-skill": {
+    "source": {
+      "source": "github",
+      "repo": "nextlevelbuilder/ui-ux-pro-max-skill"
+    },
+    "installLocation": "/home/vinayak/.claude/plugins/marketplaces/ui-ux-pro-max-skill",
+    "lastUpdated": "2026-01-27T18:15:55.166Z"
   }
 }
