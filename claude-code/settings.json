@@ -1,0 +1,43 @@
+{
+  "model": "opus",
+  "statusLine": {
+    "type": "command",
+    "command": "bunx -y ccstatusline@latest",
+    "padding": 0
+  },
+  "enabledPlugins": {
+    "code-simplifier@claude-plugins-official": true,
+    "playwright@claude-plugins-official": true,
+    "security-guidance@claude-plugins-official": true,
+    "pr-review-toolkit@claude-plugins-official": true,
+    "superpowers@claude-plugins-official": true,
+    "claude-md-management@claude-plugins-official": true,
+    "claude-code-setup@claude-plugins-official": true,
+    "context7@claude-plugins-official": true,
+    "code-review@claude-plugins-official": true,
+    "github@claude-plugins-official": true,
+    "agent-orchestration@claude-code-workflows": true,
+    "api-scaffolding@claude-code-workflows": true,
+    "api-testing-observability@claude-code-workflows": true,
+    "application-performance@claude-code-workflows": true,
+    "backend-api-security@claude-code-workflows": true,
+    "backend-development@claude-code-workflows": true,
+    "business-analytics@claude-code-workflows": true,
+    "cloud-infrastructure@claude-code-workflows": true,
+    "code-refactoring@claude-code-workflows": true,
+    "codebase-cleanup@claude-code-workflows": true,
+    "comprehensive-review@claude-code-workflows": true,
+    "context-management@claude-code-workflows": true,
+    "data-engineering@claude-code-workflows": true,
+    "database-cloud-optimization@claude-code-workflows": true,
+    "database-design@claude-code-workflows": true,
+    "frontend-mobile-security@claude-code-workflows": true,
+    "hr-legal-compliance@claude-code-workflows": true,
+    "llm-application-dev@claude-code-workflows": true,
+    "observability-monitoring@claude-code-workflows": true,
+    "performance-testing-review@claude-code-workflows": true,
+    "python-development@claude-code-workflows": true,
+    "security-compliance@claude-code-workflows": true,
+    "security-scanning@claude-code-workflows": true
+  }
+}
