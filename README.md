@@ -42,7 +42,7 @@ npm install -g @anthropic-ai/claude-code
 claude --version
 ```
 
-You should see output like: `claude-code v1.x.x`
+You should see output like: `claude-code v2.x.x`
 
 ---
 
@@ -91,7 +91,7 @@ This toolkit adds custom skills, commands, and agents to your Claude Code instal
 **3.1 Clone This Repository**
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/claude-dotfiles.git
+git clone https://github.com/vinayakg/claude-dotfiles.git
 cd claude-dotfiles
 ```
 
