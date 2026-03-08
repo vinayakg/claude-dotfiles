@@ -392,6 +392,24 @@ Agents are specialized AI assistants for specific types of tasks. Claude automat
 | `git-diff-analyzer-hb` | Git branch comparison |
 | `oss-security-auditor` | Security audits |
 
+# Disabling Agents and Skills
+
+## Agents
+
+Agents are disabled by renaming files with `.disabled` extension.
+
+**Example**: `backend-architect-hb.md` → `backend-architect-hb.md.disabled`
+
+To re-enable: Remove the `.disabled` extension.
+
+## Skills
+
+Skills are toggled in `settings.json` by setting values to `true` (enabled) or `false` (disabled).
+
+**Example**:
+```json
+"python-patterns/SKILL.md.disabled": false
+
 ---
 
 ## Keeping Updated
