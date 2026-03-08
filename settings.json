@@ -1,56 +1,29 @@
 {
   "env": {
-    "ENABLE_TOOL_SEARCH": "true"
+    "ENABLE_TOOL_SEARCH": "true",
+    "ENABLE_LSP_TOOL": "1"
   },
   "attribution": {
     "commit": "",
     "pr": ""
   },
-  "model": "haiku",
   "statusLine": {
     "type": "command",
     "command": "npx -y ccstatusline@latest",
     "padding": 0
   },
-  "enabledPlugins": {
-    "code-simplifier@claude-plugins-official": true,
-    "playwright@claude-plugins-official": true,
-    "security-guidance@claude-plugins-official": true,
-    "pr-review-toolkit@claude-plugins-official": false,
-    "superpowers@claude-plugins-official": true,
-    "claude-md-management@claude-plugins-official": false,
-    "claude-code-setup@claude-plugins-official": false,
-    "context7@claude-plugins-official": true,
-    "code-review@claude-plugins-official": true,
-    "github@claude-plugins-official": true,
-    "agent-orchestration@claude-code-workflows": false,
-    "api-scaffolding@claude-code-workflows": false,
-    "api-testing-observability@claude-code-workflows": false,
-    "application-performance@claude-code-workflows": true,
-    "backend-api-security@claude-code-workflows": false,
-    "backend-development@claude-code-workflows": false,
-    "business-analytics@claude-code-workflows": true,
-    "cloud-infrastructure@claude-code-workflows": false,
-    "code-refactoring@claude-code-workflows": false,
-    "codebase-cleanup@claude-code-workflows": false,
-    "comprehensive-review@claude-code-workflows": false,
-    "context-management@claude-code-workflows": false,
-    "data-engineering@claude-code-workflows": false,
-    "database-cloud-optimization@claude-code-workflows": false,
-    "database-design@claude-code-workflows": false,
-    "frontend-mobile-security@claude-code-workflows": false,
-    "hr-legal-compliance@claude-code-workflows": false,
-    "llm-application-dev@claude-code-workflows": false,
-    "observability-monitoring@claude-code-workflows": false,
-    "performance-testing-review@claude-code-workflows": false,
-    "python-development@claude-code-workflows": false,
-    "security-compliance@claude-code-workflows": false,
-    "security-scanning@claude-code-workflows": false,
-    "ui-design@claude-code-workflows": false,
-    "frontend-design@claude-plugins-official": true,
-    "ralph-loop@claude-plugins-official": true,
-    "commit-commands@claude-plugins-official": true,
-    "explanatory-output-style@claude-plugins-official": true,
-    "documentation-generation@claude-code-workflows": false
+  "autoUpdatesChannel": "stable",
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/home/vinayak/.claude/hooks/rtk-rewrite.sh"
+          }
+        ]
+      }
+    ]
   }
 }
